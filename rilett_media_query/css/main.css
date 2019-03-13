@@ -1,0 +1,53 @@
+
+#container {
+  width: 100%;
+  max-width: 641px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box1 {
+  max-width: 1140px;
+  height: 400px;
+  width: 200px;
+  background-color: pink;
+  float: right;
+}
+
+.box2 {
+  max-width: 1140px;
+  height: 400px;
+  width: 200px;
+  background-color: red;
+  float: right;
+}
+
+
+@media screen and (min-width: 641) {
+  .box1 {
+  background-color: blue;
+}
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box3 {
+  max-width: 1140px;
+  height: 400px;
+  width: 200px;
+  background-color: grey;
+  float: left;
+}
+
+.box4 {
+  max-width: 1140px;
+  height: 400px;
+  width: 200px;
+  background-color: brown;
+  float: left;
+}
+
